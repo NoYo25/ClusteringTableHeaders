@@ -17,24 +17,33 @@ class KGWriter(object):
     def __init__(self):
         # Manually created clusters ...
         self.GT_named_clusters = {
-            'Article': [' Title', ' Year', ' First Author Surname', ' Journal', ' DOI', 'Additional Authors', 'BibKey',
-                        'Entire Community', 'Notes', 'Other soil organisms sampled', 'file'],
-            'PaperContact': [' Surname', ' Email'], 'Data': [' DOI', ' From Paper'],
-            'DataProvider': [' Title', ' FirstName', ' Middle Initials', ' Email', ' Institute', ' Department',
-                             ' Surname'],
-            'Statistics': ['Number of Studies', 'Total Number of Sites', 'Total Number of Species']}
+            'SoilProperties': ['PET SD', 'Aridity', 'elevation', 'ESA', 'PETyr', 'sand silt clay mean', 'C.N ratio', 'Soil Organic Matter  percent', 'Organic Carbon  percent'],
+            'Study': [' Name', 'file'],
+            'PH': [' value', ' Collection Method', ' mean', 'ph new'],
+            'mean': ['OC ', 'CN ', 'OCFinal'],
+            'percent': ['Sand  ', 'Silt  ', 'Clay  ', 'SandFinal'],
+            'Final': ['Clay', 'Silt', 'ph', 'Sand'],
+            'SnowMonths': [' value', ' cat'],
+            'SpeciesRichness': ['value', 'Unit'],
+            'SiteWetBiomass': ['Site WetBiomass', 'Site WetBiomassUnits'],
+            'Site': [' BiomassM2', 'logBiomass', ' AbundanceUnits', 's AbundanceM2', ' Name'],
+            'Abundance': ['Site ', 'log']}
+
 
         # Manually create original clusters, it must map the columns in the CSV file
         self.GT_original_clusters = {
-            'Article': ['Article_Title', 'Article_Year', 'Article_FirstAuthorSurname', 'Article_Journal', 'Article_DOI',
-                        'Additional_Authors', 'BibKey', 'Entire Community', 'Notes', 'Other soil organisms sampled',
-                        'file'],
-            'PaperContact': ['PaperContact_Surname', 'PaperContact_Email'],
-            'Data': ['Data_DOI', 'Data From Paper'],
-            'DataProvider': ['DataProvider_Title', 'DataProvider_FirstName', 'DataProvider_MiddleInitials',
-                             'DataProvider_Email', 'DataProvider_Institute', 'DataProvider_Department',
-                             'DataProvider_Surname'],
-            'Statistics': ['Number_of_Studies', 'Total_Number_ofSites', 'Total_Number_ofSpecies']}
+            'SoilProperties': ['PET_SD', 'Aridity', 'elevation', 'ESA', 'PETyr', 'sand_silt_clay_mean', 'C.N_ratio', 'Soil_Organic_Matter__percent', 'Organic_Carbon__percent'],
+            'Study': ['Study_Name', 'file'],
+            'PH': ['PH_value', 'PH_Collection_Method', 'PH_mean', 'ph_new'],
+            'mean': ['OC_mean', 'CN_mean', 'OCFinal'],
+            'percent': ['Sand__percent', 'Silt__percent', 'Clay__percent', 'SandFinal'],
+            'Final': ['ClayFinal', 'SiltFinal', 'phFinal', 'SandFinal'],
+            'SnowMonths': ['SnowMonths_value', 'SnowMonths_cat'],
+            'SpeciesRichness': ['SpeciesRichness_value', 'SpeciesRichnessUnit'],
+            'SiteWetBiomass': ['Site_WetBiomass', 'Site_WetBiomassUnits'],
+            'Site': ['Site_BiomassM2', 'logBiomass', 'Site_AbundanceUnits', 'Sites_AbundanceM2' , 'Site_Name'],
+            'Abundance': ['Site_Abundance', 'logAbundance']}
+
 
 
         self.ex_uri = Namespace('http://www.loda.example#')
@@ -120,6 +129,6 @@ class KGWriter(object):
 
 if __name__ == '__main__':
     w = KGWriter()
-    #w.writeGroundTruthSchema()
-    w.writeGroundTruthFullGraph()
+    w.writeGroundTruthSchema()
+    #w.writeGroundTruthFullGraph()
     #w.readGraph()

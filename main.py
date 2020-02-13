@@ -5,10 +5,17 @@ from experiments.expGT import ExperimentGroundTruth
 from inOut.kgWriter import KGWriter
 
 if __name__ == '__main__':
+        #lst = ["Article_Title", "Article_Year", "Article_FirstAuthorSurname", "PaperContact_Surname", "PaperContact_Email",
+        #   "Article_Journal", "Article_DOI", "Data_DOI", "DataProvider_Title", "DataProvider_Surname",
+        #   "DataProvider_FirstName", "DataProvider_MiddleInitials", "DataProvider_Email", "DataProvider_Institute",
+        #   "DataProvider_Department", "Additional_Authors", "Number_of_Studies", "Total_Number_ofSites",
+        #   "Total_Number_ofSpecies", "Entire Community", "Notes", "BibKey", "Data From Paper",
+        #   "Other soil organisms sampled", "file"]
+        
     lst = ["file",
 "Study_Name",
 "Site_Name",
-"PH",
+"PH_value",
 "PH_Collection_Method",
 "PH_mean",
 "Organic_Carbon__percent",
@@ -28,12 +35,12 @@ if __name__ == '__main__':
 "OCFinal",
 "ESA",
 "elevation",
-"SnowMonths",
+"SnowMonths_value",
 "SnowMonths_cat",
 "Aridity",
 "PETyr",
 "PET_SD",
-"SpeciesRichness",
+"SpeciesRichness_value",
 "SpeciesRichnessUnit",
 "Site_WetBiomass",
 "Site_WetBiomassUnits",
@@ -50,8 +57,8 @@ if __name__ == '__main__':
     #Ground Truth
     #exp = ExperimentGroundTruth(lst)
     #clusters = exp.run()
-    #writer = KGWriter(clusters)
-    #writer.writeSchema(kg_Schema_ascii_XML)
+    #writer = KGWriter()
+    #writer.writeGroundTruthSchema()
 
 
     #Experiment 1 ...
