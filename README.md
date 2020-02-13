@@ -49,7 +49,7 @@ Afterwards, the user can rename the automatically generated names. Finally, it c
 ## Credits 
 * Pre-trained word embeddings, [GoogleNews-vectors-negative300.bin](https://code.google.com/archive/p/word2vec/). 
     -  Mikolov, T., Chen, K., Corrado, G., Dean, J.: Efficient estimation of word representations in vector space. arXiv preprint arXiv:1301.3781 (2013)
-* Columns headers in the main.py are from sWorm dataset 
+* Columns headers in the main.py are from [sWorm dataset](http://idata.idiv.de/ddm/Data/ShowData/1804?version=7)
     - Phillips, H.R., Guerra, C.A., Bartz, M.L., Briones, M.J., Brown, G., Crowther, T.W., Ferlian, O., Gongalsky, K.B., Van Den Hoogen, J., Krebs, J., et al.: Global distribution of earthworm diversity. Science 366(6464), 480–485 (2019)
 * The manually created schema and resultant schemas from experiments are validated by the online [RDF Validator](https://www.w3.org/RDF/Validator/)
 
