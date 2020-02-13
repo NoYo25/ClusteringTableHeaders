@@ -3,222 +3,276 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
-  <rdf:Description rdf:about="collection_method2d871a0b-4e43-11ea-bcfe-e069956850f4">
+  <rdf:Description rdf:about="ph_new4cfb4956-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:range>ph_new</rdfs:range>
+    <rdfs:domain rdf:resource="ph4cfb4952-4e6d-11ea-bcfe-e069956850f4"/>
+    <rdf:type rdf:resource="http://www.loda.example#ph_new"/>
     <rdfs:label>Ph</rdfs:label>
-    <rdfs:range>collection_method</rdfs:range>
+  </rdf:Description>
+  <rdf:Description rdf:about="silt4cfb495e-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:label>Percent</rdfs:label>
+    <rdf:type rdf:resource="http://www.loda.example#silt"/>
+    <rdfs:domain rdf:resource="percent4cfb495c-4e6d-11ea-bcfe-e069956850f4"/>
+    <rdfs:range>silt</rdfs:range>
+  </rdf:Description>
+  <rdf:Description rdf:about="elevation4cfb4947-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:domain rdf:resource="unknown4cfb4944-4e6d-11ea-bcfe-e069956850f4"/>
+    <rdf:type rdf:resource="http://www.loda.example#elevation"/>
+    <rdfs:range>elevation</rdfs:range>
+    <rdfs:label>Unknown</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="silt4cfb4963-4e6d-11ea-bcfe-e069956850f4">
+    <rdf:type rdf:resource="http://www.loda.example#silt"/>
+    <rdfs:range>silt</rdfs:range>
+    <rdfs:label>Final</rdfs:label>
+    <rdfs:domain rdf:resource="final4cfb4961-4e6d-11ea-bcfe-e069956850f4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="oc4cfb4959-4e6d-11ea-bcfe-e069956850f4">
+    <rdf:type rdf:resource="http://www.loda.example#oc"/>
+    <rdfs:range>oc</rdfs:range>
+    <rdfs:domain rdf:resource="mean4cfb4958-4e6d-11ea-bcfe-e069956850f4"/>
+    <rdfs:label>Mean</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="cn4cfb495a-4e6d-11ea-bcfe-e069956850f4">
+    <rdf:type rdf:resource="http://www.loda.example#cn"/>
+    <rdfs:range>cn</rdfs:range>
+    <rdfs:label>Mean</rdfs:label>
+    <rdfs:domain rdf:resource="mean4cfb4958-4e6d-11ea-bcfe-e069956850f4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="collection_method4cfb4954-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:label>Ph</rdfs:label>
+    <rdfs:domain rdf:resource="ph4cfb4952-4e6d-11ea-bcfe-e069956850f4"/>
     <rdf:type rdf:resource="http://www.loda.example#collection_method"/>
-    <rdfs:domain rdf:resource="ph2d871a09-4e43-11ea-bcfe-e069956850f4"/>
+    <rdfs:range>collection_method</rdfs:range>
   </rdf:Description>
-  <rdf:Description rdf:about="unit2d871a20-4e43-11ea-bcfe-e069956850f4">
-    <rdf:type rdf:resource="http://www.loda.example#unit"/>
-    <rdfs:domain rdf:resource="species_richness2d871a1e-4e43-11ea-bcfe-e069956850f4"/>
-    <rdfs:range>unit</rdfs:range>
-    <rdfs:label>Species Richness</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="ph_final2d871a0e-4e43-11ea-bcfe-e069956850f4">
+  <rdf:Description rdf:about="ph_final4cfb4957-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:domain rdf:resource="ph4cfb4952-4e6d-11ea-bcfe-e069956850f4"/>
     <rdf:type rdf:resource="http://www.loda.example#ph_final"/>
     <rdfs:range>ph_final</rdfs:range>
     <rdfs:label>Ph</rdfs:label>
-    <rdfs:domain rdf:resource="ph2d871a09-4e43-11ea-bcfe-e069956850f4"/>
   </rdf:Description>
-  <rdf:Description rdf:about="name2d871a06-4e43-11ea-bcfe-e069956850f4">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-    <rdfs:label>Name</rdfs:label>
+  <rdf:Description rdf:about="oc_final4cfb495b-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:domain rdf:resource="mean4cfb4958-4e6d-11ea-bcfe-e069956850f4"/>
+    <rdf:type rdf:resource="http://www.loda.example#oc_final"/>
+    <rdfs:label>Mean</rdfs:label>
+    <rdfs:range>oc_final</rdfs:range>
   </rdf:Description>
-  <rdf:Description rdf:about="ph2d871a09-4e43-11ea-bcfe-e069956850f4">
-    <rdfs:label>Ph</rdfs:label>
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="study2d871a07-4e43-11ea-bcfe-e069956850f4">
-    <rdfs:label>Name</rdfs:label>
-    <rdfs:domain rdf:resource="name2d871a06-4e43-11ea-bcfe-e069956850f4"/>
-    <rdf:type rdf:resource="http://www.loda.example#study"/>
-    <rdfs:range>study</rdfs:range>
-  </rdf:Description>
-  <rdf:Description rdf:about="abundance2d871a29-4e43-11ea-bcfe-e069956850f4">
-    <rdfs:label>Abundance</rdfs:label>
+  <rdf:Description rdf:about="percent4cfb495c-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:label>Percent</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
   </rdf:Description>
-  <rdf:Description rdf:about="mean2d871a0c-4e43-11ea-bcfe-e069956850f4">
-    <rdfs:range>mean</rdfs:range>
-    <rdfs:domain rdf:resource="ph2d871a09-4e43-11ea-bcfe-e069956850f4"/>
-    <rdf:type rdf:resource="http://www.loda.example#mean"/>
-    <rdfs:label>Ph</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="unknown2d871a04-4e43-11ea-bcfe-e069956850f4">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  <rdf:Description rdf:about="soil_organic_matter__percent4cfb494c-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:range>soil_organic_matter__percent</rdfs:range>
+    <rdfs:domain rdf:resource="unknown4cfb4944-4e6d-11ea-bcfe-e069956850f4"/>
+    <rdf:type rdf:resource="http://www.loda.example#soil_organic_matter__percent"/>
     <rdfs:label>Unknown</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="ph_new2d871a0d-4e43-11ea-bcfe-e069956850f4">
-    <rdfs:domain rdf:resource="ph2d871a09-4e43-11ea-bcfe-e069956850f4"/>
-    <rdf:type rdf:resource="http://www.loda.example#ph_new"/>
-    <rdfs:range>ph_new</rdfs:range>
-    <rdfs:label>Ph</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="cn2d871a11-4e43-11ea-bcfe-e069956850f4">
-    <rdfs:label>Mean</rdfs:label>
-    <rdfs:range>cn</rdfs:range>
-    <rdfs:domain rdf:resource="mean2d871a0f-4e43-11ea-bcfe-e069956850f4"/>
-    <rdf:type rdf:resource="http://www.loda.example#cn"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="site_wet_biomass2d871a22-4e43-11ea-bcfe-e069956850f4">
-    <rdfs:range>site_wet_biomass</rdfs:range>
-    <rdfs:domain rdf:resource="site_wet_biomass2d871a21-4e43-11ea-bcfe-e069956850f4"/>
-    <rdf:type rdf:resource="http://www.loda.example#site_wet_biomass"/>
-    <rdfs:label>Site Wet Biomass</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="sand2d871a14-4e43-11ea-bcfe-e069956850f4">
-    <rdf:type rdf:resource="http://www.loda.example#sand"/>
-    <rdfs:range>sand</rdfs:range>
-    <rdfs:domain rdf:resource="percent2d871a13-4e43-11ea-bcfe-e069956850f4"/>
-    <rdfs:label>Percent</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="silt2d871a15-4e43-11ea-bcfe-e069956850f4">
-    <rdfs:domain rdf:resource="percent2d871a13-4e43-11ea-bcfe-e069956850f4"/>
-    <rdfs:label>Percent</rdfs:label>
-    <rdf:type rdf:resource="http://www.loda.example#silt"/>
-    <rdfs:range>silt</rdfs:range>
-  </rdf:Description>
-  <rdf:Description rdf:about="site_wet_biomass2d871a21-4e43-11ea-bcfe-e069956850f4">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-    <rdfs:label>Site Wet Biomass</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="oc_final2d871a12-4e43-11ea-bcfe-e069956850f4">
-    <rdf:type rdf:resource="http://www.loda.example#oc_final"/>
-    <rdfs:range>oc_final</rdfs:range>
-    <rdfs:label>Mean</rdfs:label>
-    <rdfs:domain rdf:resource="mean2d871a0f-4e43-11ea-bcfe-e069956850f4"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="percent2d871a13-4e43-11ea-bcfe-e069956850f4">
-    <rdfs:label>Percent</rdfs:label>
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="abundance_units2d871a27-4e43-11ea-bcfe-e069956850f4">
-    <rdfs:domain rdf:resource="site2d871a24-4e43-11ea-bcfe-e069956850f4"/>
-    <rdf:type rdf:resource="http://www.loda.example#abundance_units"/>
-    <rdfs:label>Site</rdfs:label>
-    <rdfs:range>abundance_units</rdfs:range>
-  </rdf:Description>
-  <rdf:Description rdf:about="cat2d871a1d-4e43-11ea-bcfe-e069956850f4">
-    <rdfs:domain rdf:resource="snow_months2d871a1b-4e43-11ea-bcfe-e069956850f4"/>
+  <rdf:Description rdf:about="cat4cfb4966-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:label>Snow Months</rdfs:label>
+    <rdfs:domain rdf:resource="snow_months4cfb4964-4e6d-11ea-bcfe-e069956850f4"/>
     <rdfs:range>cat</rdfs:range>
     <rdf:type rdf:resource="http://www.loda.example#cat"/>
-    <rdfs:label>Snow Months</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="s_abundance_m22d871a28-4e43-11ea-bcfe-e069956850f4">
-    <rdf:type rdf:resource="http://www.loda.example#s_abundance_m2"/>
-    <rdfs:range>s_abundance_m2</rdfs:range>
+  <rdf:Description rdf:about="abundance_units4cfb4970-4e6d-11ea-bcfe-e069956850f4">
     <rdfs:label>Site</rdfs:label>
-    <rdfs:domain rdf:resource="site2d871a24-4e43-11ea-bcfe-e069956850f4"/>
+    <rdf:type rdf:resource="http://www.loda.example#abundance_units"/>
+    <rdfs:range>abundance_units</rdfs:range>
+    <rdfs:domain rdf:resource="site4cfb496d-4e6d-11ea-bcfe-e069956850f4"/>
   </rdf:Description>
-  <rdf:Description rdf:about="final2d871a18-4e43-11ea-bcfe-e069956850f4">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-    <rdfs:label>Final</rdfs:label>
+  <rdf:Description rdf:about="sand4cfb495d-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:range>sand</rdfs:range>
+    <rdf:type rdf:resource="http://www.loda.example#sand"/>
+    <rdfs:label>Percent</rdfs:label>
+    <rdfs:domain rdf:resource="percent4cfb495c-4e6d-11ea-bcfe-e069956850f4"/>
   </rdf:Description>
-  <rdf:Description rdf:about="silt2d871a1a-4e43-11ea-bcfe-e069956850f4">
-    <rdfs:range>silt</rdfs:range>
-    <rdfs:domain rdf:resource="final2d871a18-4e43-11ea-bcfe-e069956850f4"/>
-    <rdf:type rdf:resource="http://www.loda.example#silt"/>
-    <rdfs:label>Final</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="site2d871a08-4e43-11ea-bcfe-e069956850f4">
-    <rdfs:domain rdf:resource="name2d871a06-4e43-11ea-bcfe-e069956850f4"/>
-    <rdf:type rdf:resource="http://www.loda.example#site"/>
-    <rdfs:label>Name</rdfs:label>
-    <rdfs:range>site</rdfs:range>
-  </rdf:Description>
-  <rdf:Description rdf:about="clay2d871a19-4e43-11ea-bcfe-e069956850f4">
-    <rdfs:domain rdf:resource="final2d871a18-4e43-11ea-bcfe-e069956850f4"/>
-    <rdf:type rdf:resource="http://www.loda.example#clay"/>
-    <rdfs:range>clay</rdfs:range>
-    <rdfs:label>Final</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="snow_months2d871a1b-4e43-11ea-bcfe-e069956850f4">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  <rdf:Description rdf:about="value4cfb4965-4e6d-11ea-bcfe-e069956850f4">
     <rdfs:label>Snow Months</rdfs:label>
+    <rdfs:domain rdf:resource="snow_months4cfb4964-4e6d-11ea-bcfe-e069956850f4"/>
+    <rdf:type rdf:resource="http://www.loda.example#value"/>
+    <rdfs:range>value</rdfs:range>
   </rdf:Description>
-  <rdf:Description rdf:about="site2d871a2a-4e43-11ea-bcfe-e069956850f4">
-    <rdfs:label>Abundance</rdfs:label>
-    <rdfs:range>site</rdfs:range>
-    <rdf:type rdf:resource="http://www.loda.example#site"/>
-    <rdfs:domain rdf:resource="abundance2d871a29-4e43-11ea-bcfe-e069956850f4"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="pet_sd2d871a05-4e43-11ea-bcfe-e069956850f4">
-    <rdfs:range>pet_sd</rdfs:range>
-    <rdf:type rdf:resource="http://www.loda.example#pet_sd"/>
-    <rdfs:domain rdf:resource="unknown2d871a04-4e43-11ea-bcfe-e069956850f4"/>
+  <rdf:Description rdf:about="c_n_ratio4cfb494b-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:domain rdf:resource="unknown4cfb4944-4e6d-11ea-bcfe-e069956850f4"/>
     <rdfs:label>Unknown</rdfs:label>
+    <rdfs:range>c_n_ratio</rdfs:range>
+    <rdf:type rdf:resource="http://www.loda.example#c_n_ratio"/>
   </rdf:Description>
-  <rdf:Description rdf:about="biomass_m22d871a25-4e43-11ea-bcfe-e069956850f4">
-    <rdfs:domain rdf:resource="site2d871a24-4e43-11ea-bcfe-e069956850f4"/>
-    <rdfs:range>biomass_m2</rdfs:range>
-    <rdfs:label>Site</rdfs:label>
-    <rdf:type rdf:resource="http://www.loda.example#biomass_m2"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="clay2d871a16-4e43-11ea-bcfe-e069956850f4">
-    <rdfs:domain rdf:resource="percent2d871a13-4e43-11ea-bcfe-e069956850f4"/>
-    <rdfs:range>clay</rdfs:range>
-    <rdfs:label>Percent</rdfs:label>
-    <rdf:type rdf:resource="http://www.loda.example#clay"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="oc2d871a10-4e43-11ea-bcfe-e069956850f4">
-    <rdfs:label>Mean</rdfs:label>
-    <rdfs:range>oc</rdfs:range>
-    <rdf:type rdf:resource="http://www.loda.example#oc"/>
-    <rdfs:domain rdf:resource="mean2d871a0f-4e43-11ea-bcfe-e069956850f4"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="2d871a1f-4e43-11ea-bcfe-e069956850f4">
-    <rdfs:range></rdfs:range>
-    <rdf:type rdf:resource="http://www.loda.example#"/>
+  <rdf:Description rdf:about="unit4cfb4969-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:domain rdf:resource="species_richness4cfb4967-4e6d-11ea-bcfe-e069956850f4"/>
+    <rdfs:range>unit</rdfs:range>
+    <rdf:type rdf:resource="http://www.loda.example#unit"/>
     <rdfs:label>Species Richness</rdfs:label>
-    <rdfs:domain rdf:resource="species_richness2d871a1e-4e43-11ea-bcfe-e069956850f4"/>
   </rdf:Description>
-  <rdf:Description rdf:about="sand_final2d871a17-4e43-11ea-bcfe-e069956850f4">
-    <rdfs:label>Percent</rdfs:label>
-    <rdfs:domain rdf:resource="percent2d871a13-4e43-11ea-bcfe-e069956850f4"/>
-    <rdf:type rdf:resource="http://www.loda.example#sand_final"/>
-    <rdfs:range>sand_final</rdfs:range>
-  </rdf:Description>
-  <rdf:Description rdf:about="2d871a0a-4e43-11ea-bcfe-e069956850f4">
-    <rdfs:label>Ph</rdfs:label>
-    <rdfs:range></rdfs:range>
-    <rdfs:domain rdf:resource="ph2d871a09-4e43-11ea-bcfe-e069956850f4"/>
-    <rdf:type rdf:resource="http://www.loda.example#"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="species_richness2d871a1e-4e43-11ea-bcfe-e069956850f4">
+  <rdf:Description rdf:about="site_wet_biomass4cfb496a-4e6d-11ea-bcfe-e069956850f4">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-    <rdfs:label>Species Richness</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="2d871a1c-4e43-11ea-bcfe-e069956850f4">
-    <rdf:type rdf:resource="http://www.loda.example#"/>
-    <rdfs:label>Snow Months</rdfs:label>
-    <rdfs:range></rdfs:range>
-    <rdfs:domain rdf:resource="snow_months2d871a1b-4e43-11ea-bcfe-e069956850f4"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="site_wet_biomass_units2d871a23-4e43-11ea-bcfe-e069956850f4">
-    <rdfs:range>site_wet_biomass_units</rdfs:range>
-    <rdf:type rdf:resource="http://www.loda.example#site_wet_biomass_units"/>
-    <rdfs:domain rdf:resource="site_wet_biomass2d871a21-4e43-11ea-bcfe-e069956850f4"/>
     <rdfs:label>Site Wet Biomass</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="log2d871a2b-4e43-11ea-bcfe-e069956850f4">
-    <rdfs:range>log</rdfs:range>
-    <rdfs:domain rdf:resource="abundance2d871a29-4e43-11ea-bcfe-e069956850f4"/>
+  <rdf:Description rdf:about="site_wet_biomass_units4cfb496c-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:range>site_wet_biomass_units</rdfs:range>
+    <rdfs:label>Site Wet Biomass</rdfs:label>
+    <rdfs:domain rdf:resource="site_wet_biomass4cfb496a-4e6d-11ea-bcfe-e069956850f4"/>
+    <rdf:type rdf:resource="http://www.loda.example#site_wet_biomass_units"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="biomass_m24cfb496e-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:domain rdf:resource="site4cfb496d-4e6d-11ea-bcfe-e069956850f4"/>
+    <rdf:type rdf:resource="http://www.loda.example#biomass_m2"/>
+    <rdfs:range>biomass_m2</rdfs:range>
+    <rdfs:label>Site</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="species_richness4cfb4967-4e6d-11ea-bcfe-e069956850f4">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:label>Species Richness</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="log_biomass4cfb496f-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:range>log_biomass</rdfs:range>
+    <rdfs:domain rdf:resource="site4cfb496d-4e6d-11ea-bcfe-e069956850f4"/>
+    <rdf:type rdf:resource="http://www.loda.example#log_biomass"/>
+    <rdfs:label>Site</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="value4cfb4968-4e6d-11ea-bcfe-e069956850f4">
+    <rdf:type rdf:resource="http://www.loda.example#value"/>
+    <rdfs:domain rdf:resource="species_richness4cfb4967-4e6d-11ea-bcfe-e069956850f4"/>
+    <rdfs:label>Species Richness</rdfs:label>
+    <rdfs:range>value</rdfs:range>
+  </rdf:Description>
+  <rdf:Description rdf:about="mean4cfb4955-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:range>mean</rdfs:range>
+    <rdfs:label>Ph</rdfs:label>
+    <rdf:type rdf:resource="http://www.loda.example#mean"/>
+    <rdfs:domain rdf:resource="ph4cfb4952-4e6d-11ea-bcfe-e069956850f4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="pe_tyr4cfb4949-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:range>pe_tyr</rdfs:range>
+    <rdf:type rdf:resource="http://www.loda.example#pe_tyr"/>
+    <rdfs:domain rdf:resource="unknown4cfb4944-4e6d-11ea-bcfe-e069956850f4"/>
+    <rdfs:label>Unknown</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="name4cfb494f-4e6d-11ea-bcfe-e069956850f4">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:label>Name</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="clay4cfb4962-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:domain rdf:resource="final4cfb4961-4e6d-11ea-bcfe-e069956850f4"/>
+    <rdfs:range>clay</rdfs:range>
+    <rdf:type rdf:resource="http://www.loda.example#clay"/>
+    <rdfs:label>Final</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="final4cfb4961-4e6d-11ea-bcfe-e069956850f4">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:label>Final</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="organic_carbon__percent4cfb494d-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:domain rdf:resource="unknown4cfb4944-4e6d-11ea-bcfe-e069956850f4"/>
+    <rdfs:label>Unknown</rdfs:label>
+    <rdfs:range>organic_carbon__percent</rdfs:range>
+    <rdf:type rdf:resource="http://www.loda.example#organic_carbon__percent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="value4cfb4953-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:label>Ph</rdfs:label>
+    <rdfs:range>value</rdfs:range>
+    <rdf:type rdf:resource="http://www.loda.example#value"/>
+    <rdfs:domain rdf:resource="ph4cfb4952-4e6d-11ea-bcfe-e069956850f4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="file4cfb494e-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:domain rdf:resource="unknown4cfb4944-4e6d-11ea-bcfe-e069956850f4"/>
+    <rdf:type rdf:resource="http://www.loda.example#file"/>
+    <rdfs:range>file</rdfs:range>
+    <rdfs:label>Unknown</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="site_wet_biomass4cfb496b-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:domain rdf:resource="site_wet_biomass4cfb496a-4e6d-11ea-bcfe-e069956850f4"/>
+    <rdfs:range>site_wet_biomass</rdfs:range>
+    <rdfs:label>Site Wet Biomass</rdfs:label>
+    <rdf:type rdf:resource="http://www.loda.example#site_wet_biomass"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="s_abundance_m24cfb4971-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:domain rdf:resource="site4cfb496d-4e6d-11ea-bcfe-e069956850f4"/>
+    <rdfs:label>Site</rdfs:label>
+    <rdf:type rdf:resource="http://www.loda.example#s_abundance_m2"/>
+    <rdfs:range>s_abundance_m2</rdfs:range>
+  </rdf:Description>
+  <rdf:Description rdf:about="site4cfb4973-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:domain rdf:resource="abundance4cfb4972-4e6d-11ea-bcfe-e069956850f4"/>
     <rdfs:label>Abundance</rdfs:label>
+    <rdfs:range>site</rdfs:range>
+    <rdf:type rdf:resource="http://www.loda.example#site"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="log4cfb4974-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:domain rdf:resource="abundance4cfb4972-4e6d-11ea-bcfe-e069956850f4"/>
+    <rdfs:label>Abundance</rdfs:label>
+    <rdfs:range>log</rdfs:range>
     <rdf:type rdf:resource="http://www.loda.example#log"/>
   </rdf:Description>
-  <rdf:Description rdf:about="log_biomass2d871a26-4e43-11ea-bcfe-e069956850f4">
-    <rdfs:range>log_biomass</rdfs:range>
-    <rdfs:label>Site</rdfs:label>
-    <rdf:type rdf:resource="http://www.loda.example#log_biomass"/>
-    <rdfs:domain rdf:resource="site2d871a24-4e43-11ea-bcfe-e069956850f4"/>
+  <rdf:Description rdf:about="aridity4cfb4946-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:range>aridity</rdfs:range>
+    <rdfs:label>Unknown</rdfs:label>
+    <rdf:type rdf:resource="http://www.loda.example#aridity"/>
+    <rdfs:domain rdf:resource="unknown4cfb4944-4e6d-11ea-bcfe-e069956850f4"/>
   </rdf:Description>
-  <rdf:Description rdf:about="site2d871a24-4e43-11ea-bcfe-e069956850f4">
+  <rdf:Description rdf:about="sand_final4cfb4960-4e6d-11ea-bcfe-e069956850f4">
+    <rdf:type rdf:resource="http://www.loda.example#sand_final"/>
+    <rdfs:range>sand_final</rdfs:range>
+    <rdfs:domain rdf:resource="percent4cfb495c-4e6d-11ea-bcfe-e069956850f4"/>
+    <rdfs:label>Percent</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="site4cfb496d-4e6d-11ea-bcfe-e069956850f4">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdfs:label>Site</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="mean2d871a0f-4e43-11ea-bcfe-e069956850f4">
+  <rdf:Description rdf:about="site4cfb4951-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:range>site</rdfs:range>
+    <rdf:type rdf:resource="http://www.loda.example#site"/>
+    <rdfs:label>Name</rdfs:label>
+    <rdfs:domain rdf:resource="name4cfb494f-4e6d-11ea-bcfe-e069956850f4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="snow_months4cfb4964-4e6d-11ea-bcfe-e069956850f4">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:label>Snow Months</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="esa4cfb4948-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:range>esa</rdfs:range>
+    <rdfs:label>Unknown</rdfs:label>
+    <rdf:type rdf:resource="http://www.loda.example#esa"/>
+    <rdfs:domain rdf:resource="unknown4cfb4944-4e6d-11ea-bcfe-e069956850f4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="clay4cfb495f-4e6d-11ea-bcfe-e069956850f4">
+    <rdf:type rdf:resource="http://www.loda.example#clay"/>
+    <rdfs:label>Percent</rdfs:label>
+    <rdfs:range>clay</rdfs:range>
+    <rdfs:domain rdf:resource="percent4cfb495c-4e6d-11ea-bcfe-e069956850f4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="study4cfb4950-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:range>study</rdfs:range>
+    <rdf:type rdf:resource="http://www.loda.example#study"/>
+    <rdfs:label>Name</rdfs:label>
+    <rdfs:domain rdf:resource="name4cfb494f-4e6d-11ea-bcfe-e069956850f4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mean4cfb4958-4e6d-11ea-bcfe-e069956850f4">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdfs:label>Mean</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="pet_sd4cfb4945-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:range>pet_sd</rdfs:range>
+    <rdfs:domain rdf:resource="unknown4cfb4944-4e6d-11ea-bcfe-e069956850f4"/>
+    <rdf:type rdf:resource="http://www.loda.example#pet_sd"/>
+    <rdfs:label>Unknown</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="sand_silt_clay_mean4cfb494a-4e6d-11ea-bcfe-e069956850f4">
+    <rdf:type rdf:resource="http://www.loda.example#sand_silt_clay_mean"/>
+    <rdfs:domain rdf:resource="unknown4cfb4944-4e6d-11ea-bcfe-e069956850f4"/>
+    <rdfs:label>Unknown</rdfs:label>
+    <rdfs:range>sand_silt_clay_mean</rdfs:range>
+  </rdf:Description>
+  <rdf:Description rdf:about="abundance4cfb4972-4e6d-11ea-bcfe-e069956850f4">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:label>Abundance</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="ph4cfb4952-4e6d-11ea-bcfe-e069956850f4">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:label>Ph</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="unknown4cfb4944-4e6d-11ea-bcfe-e069956850f4">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:label>Unknown</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

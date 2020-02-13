@@ -3,164 +3,248 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
-  <rdf:Description rdf:about="clay__percentea1e4272-4e42-11ea-bcfe-e069956850f4">
-    <rdfs:domain rdf:resource="finalea1e426c-4e42-11ea-bcfe-e069956850f4"/>
-    <rdfs:range>clay__percent</rdfs:range>
-    <rdf:type rdf:resource="http://www.loda.example#clay__percent"/>
-    <rdfs:label>Final</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="phea1e4274-4e42-11ea-bcfe-e069956850f4">
-    <rdf:type rdf:resource="http://www.loda.example#ph"/>
-    <rdfs:range>ph</rdfs:range>
-    <rdfs:label>Final</rdfs:label>
-    <rdfs:domain rdf:resource="finalea1e426c-4e42-11ea-bcfe-e069956850f4"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="study_nameea1e426d-4e42-11ea-bcfe-e069956850f4">
-    <rdfs:range>study_name</rdfs:range>
-    <rdfs:domain rdf:resource="finalea1e426c-4e42-11ea-bcfe-e069956850f4"/>
-    <rdfs:label>Final</rdfs:label>
-    <rdf:type rdf:resource="http://www.loda.example#study_name"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="siltea1e4277-4e42-11ea-bcfe-e069956850f4">
-    <rdfs:range>silt</rdfs:range>
-    <rdfs:domain rdf:resource="finalea1e426c-4e42-11ea-bcfe-e069956850f4"/>
-    <rdfs:label>Final</rdfs:label>
-    <rdf:type rdf:resource="http://www.loda.example#silt"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="abundanceea1e427f-4e42-11ea-bcfe-e069956850f4">
-    <rdfs:range>abundance</rdfs:range>
-    <rdfs:domain rdf:resource="siteea1e427c-4e42-11ea-bcfe-e069956850f4"/>
-    <rdf:type rdf:resource="http://www.loda.example#abundance"/>
-    <rdfs:label>Site</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="sandea1e4276-4e42-11ea-bcfe-e069956850f4">
-    <rdf:type rdf:resource="http://www.loda.example#sand"/>
-    <rdfs:range>sand</rdfs:range>
-    <rdfs:domain rdf:resource="finalea1e426c-4e42-11ea-bcfe-e069956850f4"/>
-    <rdfs:label>Final</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="unknownea1e426a-4e42-11ea-bcfe-e069956850f4">
+  <rdf:Description rdf:about="aridity08ce6d5d-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:range>aridity</rdfs:range>
+    <rdfs:domain rdf:resource="unknown08ce6d5a-4e6d-11ea-bcfe-e069956850f4"/>
     <rdfs:label>Unknown</rdfs:label>
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.loda.example#aridity"/>
   </rdf:Description>
-  <rdf:Description rdf:about="snow_monthsea1e4279-4e42-11ea-bcfe-e069956850f4">
-    <rdfs:range>snow_months</rdfs:range>
-    <rdfs:domain rdf:resource="finalea1e426c-4e42-11ea-bcfe-e069956850f4"/>
-    <rdfs:label>Final</rdfs:label>
-    <rdf:type rdf:resource="http://www.loda.example#snow_months"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="c_n_ratioea1e426f-4e42-11ea-bcfe-e069956850f4">
-    <rdfs:range>c_n_ratio</rdfs:range>
-    <rdf:type rdf:resource="http://www.loda.example#c_n_ratio"/>
-    <rdfs:label>Final</rdfs:label>
-    <rdfs:domain rdf:resource="finalea1e426c-4e42-11ea-bcfe-e069956850f4"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="sand_silt_clay_meanea1e4273-4e42-11ea-bcfe-e069956850f4">
-    <rdfs:label>Final</rdfs:label>
-    <rdf:type rdf:resource="http://www.loda.example#sand_silt_clay_mean"/>
-    <rdfs:domain rdf:resource="finalea1e426c-4e42-11ea-bcfe-e069956850f4"/>
-    <rdfs:range>sand_silt_clay_mean</rdfs:range>
-  </rdf:Description>
-  <rdf:Description rdf:about="finalea1e426c-4e42-11ea-bcfe-e069956850f4">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-    <rdfs:label>Final</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="sand__percentea1e4270-4e42-11ea-bcfe-e069956850f4">
-    <rdf:type rdf:resource="http://www.loda.example#sand__percent"/>
-    <rdfs:domain rdf:resource="finalea1e426c-4e42-11ea-bcfe-e069956850f4"/>
-    <rdfs:label>Final</rdfs:label>
-    <rdfs:range>sand__percent</rdfs:range>
-  </rdf:Description>
-  <rdf:Description rdf:about="phea1e4281-4e42-11ea-bcfe-e069956850f4">
-    <rdfs:label>Mean</rdfs:label>
-    <rdf:type rdf:resource="http://www.loda.example#ph"/>
-    <rdfs:domain rdf:resource="meanea1e4280-4e42-11ea-bcfe-e069956850f4"/>
-    <rdfs:range>ph</rdfs:range>
-  </rdf:Description>
-  <rdf:Description rdf:about="site_nameea1e426e-4e42-11ea-bcfe-e069956850f4">
-    <rdfs:label>Final</rdfs:label>
-    <rdfs:domain rdf:resource="finalea1e426c-4e42-11ea-bcfe-e069956850f4"/>
-    <rdf:type rdf:resource="http://www.loda.example#site_name"/>
-    <rdfs:range>site_name</rdfs:range>
-  </rdf:Description>
-  <rdf:Description rdf:about="biomass_m2ea1e427e-4e42-11ea-bcfe-e069956850f4">
-    <rdfs:domain rdf:resource="siteea1e427c-4e42-11ea-bcfe-e069956850f4"/>
-    <rdf:type rdf:resource="http://www.loda.example#biomass_m2"/>
+  <rdf:Description rdf:about="biomass_m208ce6d72-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:domain rdf:resource="site08ce6d70-4e6d-11ea-bcfe-e069956850f4"/>
     <rdfs:range>biomass_m2</rdfs:range>
     <rdfs:label>Site</rdfs:label>
+    <rdf:type rdf:resource="http://www.loda.example#biomass_m2"/>
   </rdf:Description>
-  <rdf:Description rdf:about="log_biomassea1e427a-4e42-11ea-bcfe-e069956850f4">
+  <rdf:Description rdf:about="sand_silt_clay_mean08ce6d68-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:domain rdf:resource="final08ce6d60-4e6d-11ea-bcfe-e069956850f4"/>
+    <rdf:type rdf:resource="http://www.loda.example#sand_silt_clay_mean"/>
+    <rdfs:range>sand_silt_clay_mean</rdfs:range>
     <rdfs:label>Final</rdfs:label>
-    <rdf:type rdf:resource="http://www.loda.example#log_biomass"/>
-    <rdfs:domain rdf:resource="finalea1e426c-4e42-11ea-bcfe-e069956850f4"/>
-    <rdfs:range>log_biomass</rdfs:range>
   </rdf:Description>
-  <rdf:Description rdf:about="pe_tyrea1e4285-4e42-11ea-bcfe-e069956850f4">
-    <rdf:type rdf:resource="http://www.loda.example#pe_tyr"/>
-    <rdfs:domain rdf:resource="meanea1e4280-4e42-11ea-bcfe-e069956850f4"/>
-    <rdfs:label>Mean</rdfs:label>
-    <rdfs:range>pe_tyr</rdfs:range>
+  <rdf:Description rdf:about="clay__percent08ce6d67-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:range>clay__percent</rdfs:range>
+    <rdfs:label>Final</rdfs:label>
+    <rdfs:domain rdf:resource="final08ce6d60-4e6d-11ea-bcfe-e069956850f4"/>
+    <rdf:type rdf:resource="http://www.loda.example#clay__percent"/>
   </rdf:Description>
-  <rdf:Description rdf:about="cnea1e4283-4e42-11ea-bcfe-e069956850f4">
-    <rdf:type rdf:resource="http://www.loda.example#cn"/>
-    <rdfs:domain rdf:resource="meanea1e4280-4e42-11ea-bcfe-e069956850f4"/>
+  <rdf:Description rdf:about="ph_new08ce6d5c-4e6d-11ea-bcfe-e069956850f4">
+    <rdf:type rdf:resource="http://www.loda.example#ph_new"/>
+    <rdfs:label>Unknown</rdfs:label>
+    <rdfs:domain rdf:resource="unknown08ce6d5a-4e6d-11ea-bcfe-e069956850f4"/>
+    <rdfs:range>ph_new</rdfs:range>
+  </rdf:Description>
+  <rdf:Description rdf:about="cn08ce6d81-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:domain rdf:resource="mean08ce6d7e-4e6d-11ea-bcfe-e069956850f4"/>
     <rdfs:label>Mean</rdfs:label>
     <rdfs:range>cn</rdfs:range>
+    <rdf:type rdf:resource="http://www.loda.example#cn"/>
   </rdf:Description>
-  <rdf:Description rdf:about="siteea1e427c-4e42-11ea-bcfe-e069956850f4">
+  <rdf:Description rdf:about="sand08ce6d6b-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:label>Final</rdfs:label>
+    <rdf:type rdf:resource="http://www.loda.example#sand"/>
+    <rdfs:domain rdf:resource="final08ce6d60-4e6d-11ea-bcfe-e069956850f4"/>
+    <rdfs:range>sand</rdfs:range>
+  </rdf:Description>
+  <rdf:Description rdf:about="sand__percent08ce6d65-4e6d-11ea-bcfe-e069956850f4">
+    <rdf:type rdf:resource="http://www.loda.example#sand__percent"/>
+    <rdfs:range>sand__percent</rdfs:range>
+    <rdfs:domain rdf:resource="final08ce6d60-4e6d-11ea-bcfe-e069956850f4"/>
+    <rdfs:label>Final</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="final08ce6d60-4e6d-11ea-bcfe-e069956850f4">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-    <rdfs:label>Site</rdfs:label>
+    <rdfs:label>Final</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="meanea1e4280-4e42-11ea-bcfe-e069956850f4">
+  <rdf:Description rdf:about="ph08ce6d7f-4e6d-11ea-bcfe-e069956850f4">
     <rdfs:label>Mean</rdfs:label>
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:range>ph</rdfs:range>
+    <rdfs:domain rdf:resource="mean08ce6d7e-4e6d-11ea-bcfe-e069956850f4"/>
+    <rdf:type rdf:resource="http://www.loda.example#ph"/>
   </rdf:Description>
-  <rdf:Description rdf:about="ocea1e4282-4e42-11ea-bcfe-e069956850f4">
-    <rdfs:domain rdf:resource="meanea1e4280-4e42-11ea-bcfe-e069956850f4"/>
-    <rdfs:label>Mean</rdfs:label>
-    <rdfs:range>oc</rdfs:range>
-    <rdf:type rdf:resource="http://www.loda.example#oc"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="snow_months_catea1e427d-4e42-11ea-bcfe-e069956850f4">
-    <rdfs:domain rdf:resource="siteea1e427c-4e42-11ea-bcfe-e069956850f4"/>
-    <rdfs:range>snow_months_cat</rdfs:range>
-    <rdf:type rdf:resource="http://www.loda.example#snow_months_cat"/>
+  <rdf:Description rdf:about="wet_biomass08ce6d7a-4e6d-11ea-bcfe-e069956850f4">
+    <rdf:type rdf:resource="http://www.loda.example#wet_biomass"/>
+    <rdfs:range>wet_biomass</rdfs:range>
     <rdfs:label>Site</rdfs:label>
+    <rdfs:domain rdf:resource="site08ce6d70-4e6d-11ea-bcfe-e069956850f4"/>
   </rdf:Description>
-  <rdf:Description rdf:about="log_abundanceea1e427b-4e42-11ea-bcfe-e069956850f4">
-    <rdf:type rdf:resource="http://www.loda.example#log_abundance"/>
-    <rdfs:domain rdf:resource="finalea1e426c-4e42-11ea-bcfe-e069956850f4"/>
+  <rdf:Description rdf:about="log_abundance08ce6d6f-4e6d-11ea-bcfe-e069956850f4">
     <rdfs:label>Final</rdfs:label>
     <rdfs:range>log_abundance</rdfs:range>
+    <rdf:type rdf:resource="http://www.loda.example#log_abundance"/>
+    <rdfs:domain rdf:resource="final08ce6d60-4e6d-11ea-bcfe-e069956850f4"/>
   </rdf:Description>
-  <rdf:Description rdf:about="ocea1e4278-4e42-11ea-bcfe-e069956850f4">
-    <rdfs:label>Final</rdfs:label>
+  <rdf:Description rdf:about="oc08ce6d6d-4e6d-11ea-bcfe-e069956850f4">
     <rdf:type rdf:resource="http://www.loda.example#oc"/>
+    <rdfs:label>Final</rdfs:label>
+    <rdfs:domain rdf:resource="final08ce6d60-4e6d-11ea-bcfe-e069956850f4"/>
     <rdfs:range>oc</rdfs:range>
-    <rdfs:domain rdf:resource="finalea1e426c-4e42-11ea-bcfe-e069956850f4"/>
   </rdf:Description>
-  <rdf:Description rdf:about="silt__percentea1e4271-4e42-11ea-bcfe-e069956850f4">
-    <rdfs:domain rdf:resource="finalea1e426c-4e42-11ea-bcfe-e069956850f4"/>
-    <rdf:type rdf:resource="http://www.loda.example#silt__percent"/>
-    <rdfs:label>Final</rdfs:label>
-    <rdfs:range>silt__percent</rdfs:range>
-  </rdf:Description>
-  <rdf:Description rdf:about="esaea1e426b-4e42-11ea-bcfe-e069956850f4">
+  <rdf:Description rdf:about="esa08ce6d5b-4e6d-11ea-bcfe-e069956850f4">
     <rdf:type rdf:resource="http://www.loda.example#esa"/>
-    <rdfs:range>esa</rdfs:range>
     <rdfs:label>Unknown</rdfs:label>
-    <rdfs:domain rdf:resource="unknownea1e426a-4e42-11ea-bcfe-e069956850f4"/>
+    <rdfs:range>esa</rdfs:range>
+    <rdfs:domain rdf:resource="unknown08ce6d5a-4e6d-11ea-bcfe-e069956850f4"/>
   </rdf:Description>
-  <rdf:Description rdf:about="clayea1e4275-4e42-11ea-bcfe-e069956850f4">
-    <rdfs:label>Final</rdfs:label>
-    <rdfs:range>clay</rdfs:range>
-    <rdf:type rdf:resource="http://www.loda.example#clay"/>
-    <rdfs:domain rdf:resource="finalea1e426c-4e42-11ea-bcfe-e069956850f4"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="elevationea1e4284-4e42-11ea-bcfe-e069956850f4">
+  <rdf:Description rdf:about="elevation08ce6d82-4e6d-11ea-bcfe-e069956850f4">
     <rdf:type rdf:resource="http://www.loda.example#elevation"/>
     <rdfs:range>elevation</rdfs:range>
-    <rdfs:domain rdf:resource="meanea1e4280-4e42-11ea-bcfe-e069956850f4"/>
+    <rdfs:label>Mean</rdfs:label>
+    <rdfs:domain rdf:resource="mean08ce6d7e-4e6d-11ea-bcfe-e069956850f4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="silt__percent08ce6d66-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:range>silt__percent</rdfs:range>
+    <rdfs:label>Final</rdfs:label>
+    <rdfs:domain rdf:resource="final08ce6d60-4e6d-11ea-bcfe-e069956850f4"/>
+    <rdf:type rdf:resource="http://www.loda.example#silt__percent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ph08ce6d69-4e6d-11ea-bcfe-e069956850f4">
+    <rdf:type rdf:resource="http://www.loda.example#ph"/>
+    <rdfs:range>ph</rdfs:range>
+    <rdfs:domain rdf:resource="final08ce6d60-4e6d-11ea-bcfe-e069956850f4"/>
+    <rdfs:label>Final</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="file08ce6d5f-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:label>Unknown</rdfs:label>
+    <rdf:type rdf:resource="http://www.loda.example#file"/>
+    <rdfs:range>file</rdfs:range>
+    <rdfs:domain rdf:resource="unknown08ce6d5a-4e6d-11ea-bcfe-e069956850f4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ph_collection_method08ce6d74-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:range>ph_collection_method</rdfs:range>
+    <rdfs:domain rdf:resource="site08ce6d70-4e6d-11ea-bcfe-e069956850f4"/>
+    <rdf:type rdf:resource="http://www.loda.example#ph_collection_method"/>
+    <rdfs:label>Site</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="s_abundance_m208ce6d7d-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:range>s_abundance_m2</rdfs:range>
+    <rdfs:label>Site</rdfs:label>
+    <rdfs:domain rdf:resource="site08ce6d70-4e6d-11ea-bcfe-e069956850f4"/>
+    <rdf:type rdf:resource="http://www.loda.example#s_abundance_m2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="log_biomass08ce6d6e-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:label>Final</rdfs:label>
+    <rdfs:range>log_biomass</rdfs:range>
+    <rdfs:domain rdf:resource="final08ce6d60-4e6d-11ea-bcfe-e069956850f4"/>
+    <rdf:type rdf:resource="http://www.loda.example#log_biomass"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="oc08ce6d80-4e6d-11ea-bcfe-e069956850f4">
+    <rdf:type rdf:resource="http://www.loda.example#oc"/>
+    <rdfs:range>oc</rdfs:range>
+    <rdfs:label>Mean</rdfs:label>
+    <rdfs:domain rdf:resource="mean08ce6d7e-4e6d-11ea-bcfe-e069956850f4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="study_name08ce6d61-4e6d-11ea-bcfe-e069956850f4">
+    <rdf:type rdf:resource="http://www.loda.example#study_name"/>
+    <rdfs:domain rdf:resource="final08ce6d60-4e6d-11ea-bcfe-e069956850f4"/>
+    <rdfs:range>study_name</rdfs:range>
+    <rdfs:label>Final</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="silt08ce6d6c-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:label>Final</rdfs:label>
+    <rdf:type rdf:resource="http://www.loda.example#silt"/>
+    <rdfs:range>silt</rdfs:range>
+    <rdfs:domain rdf:resource="final08ce6d60-4e6d-11ea-bcfe-e069956850f4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="c_n_ratio08ce6d64-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:label>Final</rdfs:label>
+    <rdfs:range>c_n_ratio</rdfs:range>
+    <rdfs:domain rdf:resource="final08ce6d60-4e6d-11ea-bcfe-e069956850f4"/>
+    <rdf:type rdf:resource="http://www.loda.example#c_n_ratio"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="site_name08ce6d62-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:domain rdf:resource="final08ce6d60-4e6d-11ea-bcfe-e069956850f4"/>
+    <rdfs:range>site_name</rdfs:range>
+    <rdfs:label>Final</rdfs:label>
+    <rdf:type rdf:resource="http://www.loda.example#site_name"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="organic_carbon__percent08ce6d75-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:domain rdf:resource="site08ce6d70-4e6d-11ea-bcfe-e069956850f4"/>
+    <rdfs:label>Site</rdfs:label>
+    <rdf:type rdf:resource="http://www.loda.example#organic_carbon__percent"/>
+    <rdfs:range>organic_carbon__percent</rdfs:range>
+  </rdf:Description>
+  <rdf:Description rdf:about="clay08ce6d6a-4e6d-11ea-bcfe-e069956850f4">
+    <rdf:type rdf:resource="http://www.loda.example#clay"/>
+    <rdfs:domain rdf:resource="final08ce6d60-4e6d-11ea-bcfe-e069956850f4"/>
+    <rdfs:label>Final</rdfs:label>
+    <rdfs:range>clay</rdfs:range>
+  </rdf:Description>
+  <rdf:Description rdf:about="snow_months_value08ce6d77-4e6d-11ea-bcfe-e069956850f4">
+    <rdf:type rdf:resource="http://www.loda.example#snow_months_value"/>
+    <rdfs:range>snow_months_value</rdfs:range>
+    <rdfs:domain rdf:resource="site08ce6d70-4e6d-11ea-bcfe-e069956850f4"/>
+    <rdfs:label>Site</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="abundance08ce6d73-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:label>Site</rdfs:label>
+    <rdfs:domain rdf:resource="site08ce6d70-4e6d-11ea-bcfe-e069956850f4"/>
+    <rdf:type rdf:resource="http://www.loda.example#abundance"/>
+    <rdfs:range>abundance</rdfs:range>
+  </rdf:Description>
+  <rdf:Description rdf:about="species_richness_unit08ce6d79-4e6d-11ea-bcfe-e069956850f4">
+    <rdf:type rdf:resource="http://www.loda.example#species_richness_unit"/>
+    <rdfs:range>species_richness_unit</rdfs:range>
+    <rdfs:label>Site</rdfs:label>
+    <rdfs:domain rdf:resource="site08ce6d70-4e6d-11ea-bcfe-e069956850f4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ph_value08ce6d63-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:range>ph_value</rdfs:range>
+    <rdfs:label>Final</rdfs:label>
+    <rdf:type rdf:resource="http://www.loda.example#ph_value"/>
+    <rdfs:domain rdf:resource="final08ce6d60-4e6d-11ea-bcfe-e069956850f4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="species_richness_value08ce6d78-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:label>Site</rdfs:label>
+    <rdf:type rdf:resource="http://www.loda.example#species_richness_value"/>
+    <rdfs:range>species_richness_value</rdfs:range>
+    <rdfs:domain rdf:resource="site08ce6d70-4e6d-11ea-bcfe-e069956850f4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="unknown08ce6d5a-4e6d-11ea-bcfe-e069956850f4">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:label>Unknown</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="snow_months_cat08ce6d71-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:domain rdf:resource="site08ce6d70-4e6d-11ea-bcfe-e069956850f4"/>
+    <rdfs:range>snow_months_cat</rdfs:range>
+    <rdfs:label>Site</rdfs:label>
+    <rdf:type rdf:resource="http://www.loda.example#snow_months_cat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="pet_sd08ce6d5e-4e6d-11ea-bcfe-e069956850f4">
+    <rdf:type rdf:resource="http://www.loda.example#pet_sd"/>
+    <rdfs:domain rdf:resource="unknown08ce6d5a-4e6d-11ea-bcfe-e069956850f4"/>
+    <rdfs:label>Unknown</rdfs:label>
+    <rdfs:range>pet_sd</rdfs:range>
+  </rdf:Description>
+  <rdf:Description rdf:about="soil_organic_matter__percent08ce6d76-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:domain rdf:resource="site08ce6d70-4e6d-11ea-bcfe-e069956850f4"/>
+    <rdf:type rdf:resource="http://www.loda.example#soil_organic_matter__percent"/>
+    <rdfs:label>Site</rdfs:label>
+    <rdfs:range>soil_organic_matter__percent</rdfs:range>
+  </rdf:Description>
+  <rdf:Description rdf:about="pe_tyr08ce6d83-4e6d-11ea-bcfe-e069956850f4">
+    <rdf:type rdf:resource="http://www.loda.example#pe_tyr"/>
+    <rdfs:range>pe_tyr</rdfs:range>
+    <rdfs:domain rdf:resource="mean08ce6d7e-4e6d-11ea-bcfe-e069956850f4"/>
+    <rdfs:label>Mean</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="site08ce6d70-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:label>Site</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="wet_biomass_units08ce6d7b-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:label>Site</rdfs:label>
+    <rdf:type rdf:resource="http://www.loda.example#wet_biomass_units"/>
+    <rdfs:range>wet_biomass_units</rdfs:range>
+    <rdfs:domain rdf:resource="site08ce6d70-4e6d-11ea-bcfe-e069956850f4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="abundance_units08ce6d7c-4e6d-11ea-bcfe-e069956850f4">
+    <rdfs:range>abundance_units</rdfs:range>
+    <rdf:type rdf:resource="http://www.loda.example#abundance_units"/>
+    <rdfs:label>Site</rdfs:label>
+    <rdfs:domain rdf:resource="site08ce6d70-4e6d-11ea-bcfe-e069956850f4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mean08ce6d7e-4e6d-11ea-bcfe-e069956850f4">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdfs:label>Mean</rdfs:label>
   </rdf:Description>
 </rdf:RDF>
