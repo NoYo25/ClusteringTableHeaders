@@ -21,7 +21,7 @@ class SemanticFeatureExtractor(FeatureExtractor):
 
     def __load_model(self):
         print("Loading model...")
-        model = KeyedVectors.load_word2vec_format(os.path.join(os.path.realpath('..'), pretrained_word2vec_path), binary=True)
+        model = KeyedVectors.load_word2vec_format(os.path.join(os.path.realpath('.'), pretrained_word2vec_path), binary=True)
         return model
 
     def __preprocess_word(self, word):

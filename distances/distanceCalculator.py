@@ -28,5 +28,6 @@ class DistanceCalculator(object):
         plt.show()
 
         figure = svm.get_figure()
-        figure.savefig(os.path.join(os.path.realpath('..'), results_dir, distance_file_path), bbox_inches='tight', dpi=400)
+        print(os.path.join(os.path.realpath('.'), results_dir, distance_file_path))
+        figure.savefig(os.path.join(os.path.realpath('.'), results_dir, distance_file_path), bbox_inches='tight', dpi=400)
 

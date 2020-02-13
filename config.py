@@ -5,7 +5,7 @@ Created on Mon Oct 21 13:22:54 2019
 @author: Nora
 """
 
-min_cluster_name_len = 3
+min_cluster_name_len = 2
 Unknown_cluster_name = "Unknown"
 syntatic_distance_threshold = 0.15
 semantic_distance_threshold = 0.6

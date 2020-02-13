@@ -75,7 +75,7 @@ class KGWriter(object):
                 self.g.add((propertyNode, RDFS.range, Literal(self.__getValue(property_member))))
                 self.g.add((propertyNode, RDFS.label, Literal(self.__getLabel(c))))
 
-        self.g.serialize(os.path.join(os.path.realpath('..'), to_file_path), format='xml')
+        self.g.serialize(os.path.join(os.path.realpath('.'), to_file_path), format='xml')
 
     def writeFullGraph(self, named_clusters, original_clusters, to_file_path):
         for c, members in named_clusters.items():
