@@ -61,7 +61,10 @@ class ClustersBuilder:
         named_clusters = {}
         for i in range(clusters_n):
             name = self.__suggest_cluster_name(clusters[i])
-            named_clusters.update({name: clusters[i]})
+            items = clusters[i]
+            if name in named_clusters.keys():
+                items = items + named_clusters[name]
+            named_clusters.update({name: items})
 
         self.clusters = named_clusters
         return named_clusters
