@@ -1,7 +1,8 @@
-##Dependecies ...
-
-pip install tensorflow
-pip install keras
-pip install pandas
-pip install seaborn
-pip install sklearn
+tensorflow
+keras
+pandas
+seaborn
+sklearn
+inflection
+gensim
+rdflib
