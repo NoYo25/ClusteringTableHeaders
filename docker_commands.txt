@@ -1,0 +1,5 @@
+docker image build -t tableheaders:0.1 .
+
+#Follow the order of the command, add whatever you want but keep the --name then the image at the very last
+docker run  --mount type=bind,src=$PWD/results,dst=/app/results --user $UID --name tableheaders tableheaders:0.1
+ 

@@ -1,0 +1,7 @@
+keras
+pandas
+seaborn
+sklearn
+inflection
+gensim
+rdflib
