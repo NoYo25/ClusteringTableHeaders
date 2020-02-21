@@ -5,15 +5,12 @@ Created on Mon Oct 21 12:17:07 2019
 @author: Nora
 """
 import inflection
-import re
 from difflib import SequenceMatcher
 
-
-#TODO: get ride of this it is a bugy one instead use the inflection library, inflection library is used in semantic feature extractor
 def to_snake_case(word):
-    word = word.replace("_", "")
-    s1 = re.sub('(.)([A-Z][a-z]+)', r'\1_\2', word)
-    return re.sub('([a-z0-9])([A-Z])', r'\1_\2', s1).lower()
+    new_word = word.replace(" ", "_").replace(".", "_")
+    new_word = inflection.underscore(new_word)
+    return new_word
 
 
 def find_longest_substring(string1, string2):

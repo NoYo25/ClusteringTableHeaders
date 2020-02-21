@@ -4,7 +4,7 @@ Created on Mon Oct 21 12:17:07 2019
 
 @author: Nora
 """
-from keras.preprocessing.sequence import pad_sequences
+import tensorflow as tf
 from featuresExtractor.featureExtractor import FeatureExtractor
 from featuresExtractor.syntacticFeatureExtractor import SyntacticFeatureExtractor
 
@@ -25,7 +25,7 @@ class XBuilder:
         X = [self.featureExtractor.get_features_from_word(s) for s in input_str_lst]
         #max_len = max([sublist[-1] for sublist in X])
         max_len = self.get_max_length(X)
-        X = pad_sequences(maxlen=max_len, sequences=X, padding="post", value=0.0, dtype='float32')
+        X = tf.keras.preprocessing.sequence.pad_sequences(maxlen=max_len, sequences=X, padding="post", value=0.0, dtype='float32')
 
         print(X.shape)
         return X

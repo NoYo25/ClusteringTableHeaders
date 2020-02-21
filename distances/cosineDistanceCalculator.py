@@ -3,10 +3,7 @@ import abc
 import numpy as np
 import pandas as pd
 from scipy.spatial.distance import cosine
-
-from XBuilder import XBuilder
 from distances.distanceCalculator import DistanceCalculator
-from featuresExtractor.syntacticFeatureExtractor import SyntacticFeatureExtractor
 
 
 class CosineDistanceCalculator(DistanceCalculator, metaclass=abc.ABCMeta):

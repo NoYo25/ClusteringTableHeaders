@@ -1,8 +1,5 @@
-import numpy as np
 import pandas as pd
-
 from XBuilder import XBuilder
-from config import *
 from clusteringAlgorithms.clusterAlgorithm import ClusterAlgorithm
 from distances.cosineDistanceCalculator import CosineDistanceCalculator
 from featuresExtractor.syntacticFeatureExtractor import SyntacticFeatureExtractor

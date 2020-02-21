@@ -1,10 +1,8 @@
 from featuresExtractor.featureExtractor import FeatureExtractor
 from parser import *
-from gensim.test.utils import common_texts, get_tmpfile
-from gensim.models import Word2Vec, KeyedVectors
+from gensim.models import KeyedVectors
 from config import pretrained_word2vec_path
 from stringUtil import *
-import inflection
 import os
 
 class SemanticFeatureExtractor(FeatureExtractor):
@@ -13,7 +11,7 @@ class SemanticFeatureExtractor(FeatureExtractor):
         self.model = self.__load_model()
 
     def get_features_from_word(self, input_str):
-        compound_word = self.__preprocess_word(input_str)
+        compound_word = to_snake_case(input_str)
         return self.__get_word_vec(self.model, compound_word)
 
     def get_word_from_features(self, features):
@@ -24,16 +22,11 @@ class SemanticFeatureExtractor(FeatureExtractor):
         model = KeyedVectors.load_word2vec_format(os.path.join(os.path.realpath('.'), pretrained_word2vec_path), binary=True)
         return model
 
-    def __preprocess_word(self, word):
-        new_word = word.replace(" ", "_").replace(".", "_")
-        new_word = inflection.underscore(new_word)
-        return new_word
-
     def __preprocess_words(self, lst):
         print("Preprocess words in lst")
         new_lst = []
         for word in lst:
-            new_lst = new_lst + [self.__preprocess_word(word)]
+            new_lst = new_lst + [to_snake_case(word)]
         return new_lst
 
     def __get_word_vecs(self, model, compound_words):
