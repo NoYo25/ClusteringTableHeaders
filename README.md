@@ -44,7 +44,14 @@ Afterwards, the user can rename the automatically generated names. Finally, it c
 - [RDFLib](https://github.com/RDFLib/rdflib)
 
 ## Citation
-
+`@inproceedings{abdelmageed2020towards,
+  title={Towards Transforming Tabular Datasets into Knowledge Graphs},
+  author={Abdelmageed, Nora},
+  booktitle={European Semantic Web Conference},
+  pages={217--228},
+  year={2020},
+  organization={Springer}
+}`
 
 ## Credits 
 * Pre-trained word embeddings, [GoogleNews-vectors-negative300.bin](https://code.google.com/archive/p/word2vec/). 
